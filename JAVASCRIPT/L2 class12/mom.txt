@@ -1,0 +1,8 @@
+11th sep 2024
+Revision of Level One-
+es 5(
+    all functions
+)
+es 6(
+    fat arrows
+)

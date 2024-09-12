@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        main{
+            width: 950px;
+            margin: auto;
+        }
+        .main0{
+            display: inline-block;
+            margin: auto;
+        }
+        .main1{
+            display: inline-block;
+            margin: auto;
+        }
+        .main2{
+            display: inline-block;
+            margin: auto;
+
+        }
+        h1{
+            text-align: center;
+        }
+        *{
+            color: dimgray;
+            border: none !important;
+        }
+        .sec0{
+            width: 300px;
+            display: grid;
+            grid-template-columns: repeat(1,auto);
+            grid-template-rows: repeat(1,auto);
+        }
+        .div20{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            align-content: center;
+            text-align: center;
+            background-color: black;            
+            height: 50px;
+        }
+        .div21{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            align-content: center;
+            text-align: center;
+            background-color: hotpink;
+            height: 50px;
+        }
+        .div22{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            align-content: center;
+            text-align: center;
+            background-color: lightblue;
+            height: 50px;
+        }
+        .div23{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            align-content: center;
+            text-align: center;
+            background-color: darkblue;
+            height: 50px;
+
+        }
+        .div24{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            align-content: center;
+            text-align: center;
+            background-color: yellow;
+            height: 50px;
+
+        }
+        .div25{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 7;
+            grid-row-end: 8;
+            align-content: center;
+            text-align: center;
+            background-color: aqua;
+            height: 50px;
+
+        }
+        .div26{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 8;
+            grid-row-end: 9;
+            align-content: center;
+            text-align: center;
+            background-color: lightskyblue;
+            height: 50px;
+        }
+        .sec1{
+            width: 300px; 
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+            grid-template-rows: repeat(3,auto);
+        }
+        .div1{
+            grid-column-start: 1;
+            grid-column-end: 5 ;
+            align-content: center;
+            text-align: center;
+            height: 50px;
+            background-color: darkblue;
+        }
+        .div2{
+            grid-column-start: 1;
+            grid-column-end:5 ;
+            height: 100px;
+            align-content: center;
+            text-align: center;
+            background-color: blue;
+        }
+        .div3{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 6;
+            height: 200px;
+            align-content: center;
+            text-align: center;
+            background-color: pink;
+        }
+        .div4{
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            align-content: center;
+            text-align: center;
+            background-color: darkcyan;
+        }
+        .div5{
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            align-content: center;
+            text-align: center;    
+            background-color: yellow;        
+        }
+        .div6{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            align-content: center;
+            text-align: center;
+            background-color: aqua;
+        }
+        .div7{
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            align-content: center;
+            text-align: center;
+            background-color: lightblue;
+        }
+        .sec2{
+            width: 300px;
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+            grid-template-rows: repeat(3,auto);
+        }
+        .div8{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            align-content: center;
+            text-align: center;
+            background-color: black;
+            height: 50px;
+        }
+        .div9{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            align-content: center;
+            text-align: center;
+            background-color: hotpink;
+        }
+        .div10{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            align-content: center;
+            text-align: center;
+            background-color: skyblue;
+            height: 100px;
+        }
+        .div11{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            align-content: center;
+            text-align: center;
+            background-color: darkblue;
+            height: 100px;
+        }
+        .div12{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            align-content: center;
+            text-align: center;
+            background-color: white;
+            height: 100px;
+        }
+        .div13{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            align-content: center;
+            text-align: center;
+            background-color: lightskyblue;
+            height: 50px;
+        }
+        .div14{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            align-content: center;
+            text-align: center;
+            background-color: aqua;
+            height: 50px;
+        }
+        .div15{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            align-content: center;
+            text-align: center;
+            background-color: yellow;
+            height: 100px;
+        }
+        .div15:hover{
+            background-color: black;
+            /* transform:skewY(10deg); */
+
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section class="main0">
+            <h1 style="color: black;">Mobile</h1>
+            <div class="sec0">
+                <div class="div20">HEADER</div>
+                <div class="div21">MENU</div>
+                <div class="div22">HERO</div>
+                <div class="div23">MAIN</div>
+                <div class="div24">BANNER</div>
+                <div class="div25">EXTRA</div>
+                <div class="div26">IMAGE</div>
+            </div>
+        </section>
+        <section class="main1">
+            <h1 style="color: black;">Tablet</h1>
+            <div class="sec1">
+            <div class="div1">HEADER</div>
+            <div class="div2">HERO</div>
+            <div class="div3">MENU</div>
+            <div class="div4">MAIN</div>
+            <div class="div5">BANNER</div>
+            <div class="div6">EXTRA</div>
+            <div class="div7">IMAGE</div>
+            </div>
+        </section>
+        <section class="main2">
+            <h1 style="color: black;">Desktop</h1>
+            <div class="sec2">
+            <div class="div8">HEADER</div>
+            <div class="div9">MENU</div>
+            <div class="div10">HERO</div>
+            <div class="div11">MAIN</div>
+            <div class="div12"></div>
+            <div class="div13">IMAGE</div>
+            <div class="div14">EXTRA</div>
+            <div class="div15">BANNER</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

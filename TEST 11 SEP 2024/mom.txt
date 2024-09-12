@@ -1,0 +1,53 @@
+12 september 2024!!
+test!!
+
+
+/* Q1. What are entry conrol loops and exit control loops?
+
+Q2. Write the output of the following question:-
+
+         for (let i = 1; i <= 3; i++) { 
+         for (let j = 1; j <= 3; j++) { 
+         if (i === j) continue; 
+         console.log(i + j); } 
+        }
+
+
+Q3. Write the output of the following question:-
+        let found = false; 
+        for (let i = 1; i <= 3; i++) { 
+        for (let j = 1; j <= 3; j++) { 
+        if (i * j > 4) { 
+        found = true; break; 
+   } 
+       console.log(i, j); 
+} 
+      if (found) break; 
+}
+
+
+
+Q4. Write the output of the following question:-
+let pattern = ''; 
+ for (let i = 1; i <= 5; i++) { 
+for (let j = 1; j <= i; j++) {
+ pattern += '*';
+ } 
+pattern += '\n';
+ }
+ console.log(pattern);
+
+Q5. 
+* * * * * 
+   * * * * 
+      * * * 
+         * * 
+            * 
+
+Q6.  Write a js Program for finding Prime Numbers between 1-100?
+
+
+q7. code for anybase to anybase number system conversion ?
+
+q8. code for any base addition ?
+*/

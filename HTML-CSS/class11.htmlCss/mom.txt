@@ -1,0 +1,2 @@
+flex properties - display flex, justify contain, gap
+nav bar, menu bar, 

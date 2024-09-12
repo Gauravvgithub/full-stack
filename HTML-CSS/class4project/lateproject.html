@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>
+        <a href="https://www.dice-academy.com/" target="_blank">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4y1wY0y4krjBEVzi2zcTOIKrLpCbwlpZ6pQ&s" width="100px" alt="Dice Academy">
+        </a>
+    </h1>
+    <h2>Dice Academy</h2>
+    
+    <h4>Registration Form</h4>
+    <p>Dear Applicant,<br>
+        Welcome to our registration form! We are thrilled that you are interested in joining our community.
+        Please take a moment to fill out the following details to help us understand your background and interests.
+        Your participation will enable us to better tailor our services to meet your needs and ensure a rewarding experience for you.
+        Should you have any questions or need assistance, please don't hesitate to reach out to our support team.
+        Thank you for choosing to register with us; we look forward to embarking on this journey together!<br><br>
+        
+        Best regards,<br>
+        Dice Academy
+    </p>
+
+    <form>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Qualification</th>
+                <th>Gender</th>
+                <th>Date of Birth</th>
+                <th>Course</th>
+                <th>Email ID</th>
+                <th>Contact No</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Name" required></td>
+                <td>
+                    <select name="qualification" id="qualification" required>
+                        <option value="">Select your qualification</option>
+                        <option value="Below 8th class">Below 8th class</option>
+                        <option value="Below 10th class">Below 10th class</option>
+                        <option value="Below 12th class">Below 12th class</option>
+                        <option value="Under Graduation">Under Graduation</option>
+                        <option value="Graduate">Graduate</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="gender" id="gender" required>
+                        <option value="">Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+                <td><input type="date" required></td>
+                <td>
+                    <select name="course" id="course" required>
+                        <option value="">Select</option>
+                        <option value="Full Stack Development">Full Stack Development</option>
+                        <option value="Web Design">Web Design</option>
+                        <option value="Graphic Design">Graphic Design</option>
+                        <option value="Motion Graphics">Motion Graphics</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                    </select>
+                </td>
+                <td><input type="email" placeholder="Email" required></td>
+                <td><input type="tel" placeholder="Contact No" required></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <th>Address</th>
+                <th>Feedback</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Address" required></td>
+                <td><input type="text" placeholder="Feedback" required></td>
+            </tr>
+        </table>
+
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

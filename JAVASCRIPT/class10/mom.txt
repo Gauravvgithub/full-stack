@@ -1,0 +1,9 @@
+5 sep 2024
+last class - number system decimal to anybase , anybase to decimal.
+
+todays class --
+anybase to anybase 
+anybase addition
+anybase substraction
+anybase multiplication
+anybase division

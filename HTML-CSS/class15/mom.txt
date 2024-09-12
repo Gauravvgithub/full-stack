@@ -1,0 +1,5 @@
+what is keka - HRM system , it is a dynamic desinging
+grid - complete
+bootstrap - css , js links in project , main work of bootstrap is making website responsive.
+css  - head before custom css
+js - before html closing tag

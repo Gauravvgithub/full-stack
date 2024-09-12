@@ -1,0 +1,6 @@
+units - px are fixed and overflow.
+-  percentage - fixed on body or a screen
+rem - root element memory  - font size ke relative chlta ha  ( for font)
+em - element memory
+width - vw (viewport width)
+height - vh (viewport height)

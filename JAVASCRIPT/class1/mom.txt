@@ -1,0 +1,6 @@
+date - 14 August 2024.
+conditionals.
+
+conditionals, switch case, ternary operator.
+
+conditionals - IF, ELSE, ELSE IF.

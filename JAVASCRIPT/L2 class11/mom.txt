@@ -1,0 +1,6 @@
+// introduction of Javascript
+// There are 3 typesof languages -
+// Programming languages - java, c, C++
+// Scripting languages - js, php, typescript, python
+// Markup languages - html, xml.
+

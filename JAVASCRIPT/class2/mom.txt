@@ -1,0 +1,38 @@
+date - 20 august 2024
+
+loops - use for repeatation of work 
+
+loops - (for, while, do while). 
+
+
+            for (syntax)
+
+            while(syntax)
+
+            do while(syntax)
+
+
+
+
+        (
+            break (break the line. ex like - {1 t o 10 } 1,2,3,4(break 5). our line will be stop on 5 answer will be 1 2 3 4 ) , 
+            
+            
+            continue(continue use for for the line to skip. 1 to 10. put continue on {5}. our answer will be 1 2 3 4 6 7 8 9 10.)
+        )
+
+        nested loops
+
+outer: for (let i = 1; i <= 2; i++) {
+    inner: for (let j = 1; j <= 2; j++) {
+        if (j === 2) {
+            console.log("Skipping innerLoop iteration", i, j);
+            continue inner; // Continue innerLoop iteration
+        }
+        console.log("GeeksInner", i, j);
+    }
+    console.log("GeeksOuter", i);
+}
+
+
+https://www.geeksforgeeks.org/javascript-break-and-continue/

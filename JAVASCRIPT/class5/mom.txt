@@ -1,0 +1,7 @@
+JS - Functions, Functions statement, Functions expressions, Anomyonus  Functions, Functions with parameters, return function.
+
+stynx(
+function saymyname(){
+    console.log()
+}
+saymyname();

@@ -1,0 +1,3 @@
+display- flex - - wrap, no wrap, grow, shrink, reverse wrap.
+position - (fixed and relative) - absulute
+then work model box

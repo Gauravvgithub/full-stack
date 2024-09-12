@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: red;
+            width: 300px;
+            padding: 20px 50px;
+            border: none;
+            color: white;
+            transition: 0.1s;
+            margin-bottom: 10px;
+            border-radius: 20px 0px 20px 0px;
+            box-shadow: inset 0.5px 2.5px 10px rgb(208, 200, 200);
+            
+
+        }
+        button:hover{
+            /* background-color: blue; */
+            /* border: 10px solid black; */
+            /* border-radius: 0px 20px 0px 20px; */
+            /* transform: rotate(360deg); */
+            /* transform: translate(50px, 20px ); */
+            /* transform: scaleY(-1); */
+            
+        }
+        button:active{
+            /* background-color: aqua; */
+            /* transform: scale(0.1); */
+            /* border-radius: 100px; */
+        }
+        button:focus{
+            /* background-color: navajowhite; */
+        }
+        button:hover + p{
+            /* display: block; */
+            /* visibility: visible; */
+            transform: scaleY(1);3
+ 
+        }
+        p{   
+            background-color: blue;
+            /* display: none; */
+            /* visibility: hidden; */
+            transition: 0.5s;
+            transform: scaleX(0);
+        }
+    </style>
+</head>
+<body>
+    <button>click here</button>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, officia.</p>
+    <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, dicta!</h5>
+</body>
+</html>

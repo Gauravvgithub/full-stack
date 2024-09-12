@@ -1,0 +1,10 @@
+selecter css
+greater than selecter>
+siblings + ex(
+    div + span
+)
+~
+this is known as combinatior selecter
+
+hover, active, focus
+box shadow

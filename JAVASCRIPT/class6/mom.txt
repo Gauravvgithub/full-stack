@@ -1,0 +1,16 @@
+
+28 - august - 2024
+
+
+function - arrows function
+ syntx - 
+ 
+ var add=(num1,num2)=>num1+num2;
+console.log(sum(2,3));
+
+natural no
+even no
+add
+divide -res
+multiply -mutl
+reverse no 

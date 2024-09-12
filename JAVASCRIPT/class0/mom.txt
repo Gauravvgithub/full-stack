@@ -1,0 +1,4 @@
+introduction - JavaScript, Setup, Extensions, NodeJs Setup.
+Comments,Output, Variables, Maths (Arithmatic +-*/%), Relational operaters, Logical operaters.
+
+vikas sir github link - (https://github.com/Vikas-dice/TWT-FSWD-A2)

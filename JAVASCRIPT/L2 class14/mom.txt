@@ -15,4 +15,3 @@ REPO - NEW FOLDER
 
 
 used for an example - PROJECT = 3/4 teams (dev, testing, deployment, misc).
-git 

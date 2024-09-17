@@ -11,7 +11,7 @@ IMPORTANT TERMS  -
 COMMIT - SAVE
 FORK - COMPLETE COPY
 BRANCH -  
-REPO - NEW FOLDER 
+REPO - NEW FOLDER
 
 
 used for an example - PROJECT = 3/4 teams (dev, testing, deployment, misc).

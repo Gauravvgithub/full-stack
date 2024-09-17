@@ -1,0 +1,17 @@
+17 September 2024!!
+
+
+topic - git and github!!
+
+git and github - version controlling tool/mechanism
+
+
+IMPORTANT TERMS  - 
+
+COMMIT - SAVE
+FORK - COMPLETE COPY
+BRANCH -  
+REPO - NEW FOLDER 
+
+
+used for an example - PROJECT = 3/4 teams (dev, testing, deployment, misc)

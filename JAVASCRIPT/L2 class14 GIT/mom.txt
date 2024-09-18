@@ -15,3 +15,109 @@ REPO - NEW FOLDER
 
 
 used for an example - PROJECT = 3/4 teams (dev, testing, deployment, misc).
+/*
+
+GIT GITHUB
+
+
+Step 1 = Go to Browser - Download GIT 
+Step 2- install git in your system
+
+step 3- Create account on github
+
+git vs github
+git - tool/software
+github - website 
+
+git/github - version controlling tool/mechanism
+
+
+
+project - 3/4 Team (dev , testing , deployment , Misc )
+
+Dev - FE , BE 
+FE - x teams 
+BE - Y TEAMS 
+
+testing- Manual , automation 
+
+manual - x teams
+automation- y teams 
+
+deployment  - z teams 
+
+one branch - india 
+
+branch two = US
+
+
+VERSION CONTROLLING TOOL - GIT 
+
+
+terms 
+1- Commit - save 
+2- fork - complete copy
+3- branch 
+4- repo- new folder 
+
+
+
+
+
+
+India - Dev - code - zip - drive link - us team 
+
+us team - unzip - code base - 
+
+Us team - code - zip - drive link - india team 
+
+india team - unzip - code base - add - dev;lopment 
+
+
+
+version controlling tool
+
+version 
+
+
+project - ecoomerce 
+
+FRUITS - VERSION 1
+extra feature - chat support - version 2
+
+extra feature - payment gatway int - version 3 
+
+
+
+setup 
+
+- git globally configure 
+
+- system - laptop - pc - project - github - git - owner
+
+locally and globally 
+project - ecomm - git configure
+
+
+command 
+
+1- git config --global user.name "vikas"
+2- git config --global user.email "vikas @xyz.com"
+3- [Testing    ]git config --list
+
+
+
+
+git cmd 
+
+
+
+** globally git confirm 
+
+step1 - git init
+step 2 - git status ( red - uncommited )
+step 3 - git add . // git add -a
+STEP 4- git commit -m "msg"
+step 5 - git remote add origin github link repo
+step 5 - git push -u origin main/master
+*/

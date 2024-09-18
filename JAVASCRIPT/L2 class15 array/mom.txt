@@ -1,0 +1,25 @@
+18 September 2024!!
+JAVASCRIPT ARRAYs CLASS!!
+
+array is a data structure to save data!!
+its a linear data structure
+
+its a index based method!!
+
+array is mutable is default!!
+
+functions in arrays are -
+
+1 push - add data in ending
+2 pop - remove data from starting
+3 unshift - not use in industry
+4 shift - not use in industry
+5 index of - find the value arrays
+6 includes - if data in finded and available output will be true , else false
+7 join - arrays convert into 
+8 new array - keyword and class
+9 slice - -- "cut a value in array which select in slice"
+10 splice -  --
+
+
+

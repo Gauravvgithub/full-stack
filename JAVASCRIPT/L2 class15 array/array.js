@@ -45,4 +45,17 @@ console.log("new Array - ",myarr7);
 
 // slice
 
+let myarr8=[81,82,83,84,85];
+console.log("This is a Slice Array Method -",myarr8.slice(1,4));
+console.log(myarr8);
+
+
 // splice
+
+let myarr9=[91,92,93,94,95];
+console.log("This is a Splice Array Method -",myarr9.splice(2,4));
+console.log(myarr9);
+
+
+console.log("--------------------");
+

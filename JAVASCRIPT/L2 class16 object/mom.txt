@@ -1,0 +1,7 @@
+Date - 19 September 2024!!
+
+last array class revision!!
+
+What is Objects!!
+-- 
+In JavaScript, an object is like a container that holds a collection of related data and functions. You can think of it as a way to group together properties (like characteristics) and methods (like actions) that belong to a specific thing.

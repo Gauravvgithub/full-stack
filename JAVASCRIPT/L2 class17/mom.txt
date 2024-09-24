@@ -1,0 +1,11 @@
+Date - 24 September 2024!!
+
+Strings methods !!
+
+1. Tostring
+2. Join
+3. Split
+
+Important Topic !!
+
+1. JSON --> When we store the data in the form of array of obects this is all called JSON.   

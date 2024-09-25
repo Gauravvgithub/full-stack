@@ -1,0 +1,6 @@
+Date - 25 September 2024!!
+
+revision.
+
+trim
+concat

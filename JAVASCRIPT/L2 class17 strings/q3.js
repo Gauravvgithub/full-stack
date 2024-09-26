@@ -51,6 +51,3 @@ const name = "my name is vikas";
 const reversedName = reverseString(name);
 console.log(reversedName); // Output: "sakiv si eman ym"
 */
-
-
-

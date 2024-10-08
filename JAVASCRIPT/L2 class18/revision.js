@@ -3,7 +3,7 @@
 // trim
 let a="      gaurav      ";
 console.log(a);
-console.log(a.trim());
+console.log(a.trim()); // sending data to backend by using trim!!
 
 // concat
 

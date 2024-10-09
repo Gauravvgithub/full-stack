@@ -174,7 +174,16 @@ The sine wave for the matrix:-
 3 4
 will be [1, 3, 4, 2].*/
 
-// ans 11 (not attempt)
+// ans 11 
+
+let arr1=[[1,2],[3,4]];
+
+for(i=0;i<=1;i++){
+    for(j=i;j<=i;j++)
+        console.log(arr1[i],[j]);
+        
+}
+console.log("----------------");
 
 // 12 Write a JavaScript function that takes a string as input and converts all the lowercase letters to uppercase without using any inbuilt string methods such as toUpperCase() or toLowerCase(). You can assume the input will contain only alphabetical characters.
 /*Example:
@@ -206,3 +215,4 @@ function convertToUppercase(str) {
 let input = "hello";
 console.log("Input:", input);
 console.log("Output:", convertToUppercase(input));
+

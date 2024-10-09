@@ -39,7 +39,7 @@ For eg:-
 The sine wave for the matrix:-
 1 2
 3 4
-will be [1, 3, 4, 2].
+output will be [1, 3, 4, 2].
 
 
 

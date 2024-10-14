@@ -1,0 +1,6 @@
+10 October 2024!!
+
+Browers APIs
+
+1.SetTimer.
+2.SetInterval.

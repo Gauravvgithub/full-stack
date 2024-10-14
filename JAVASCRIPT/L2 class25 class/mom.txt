@@ -1,0 +1,5 @@
+11th October 2024!!
+
+Last class --> SetInterval, SetTimer
+
+Todays class --> Class, class constructor

@@ -2,4 +2,77 @@
 
 Last class --> SetInterval, SetTimer
 
-Todays class --> Class, class constructor
+ES6 Todays class --> Class, class constructor
+
+Classes and OOPS
+
+---------------------------------------------
+
+Class
+
+Objests - Class ->> C++, Java, -->> object se Class banti ha 
+
+But 
+
+In JavaScrpit 
+
+Class - Objects - ES5 - Function constructor
+
+ES6 - Class Keyword introducted 
+
+Class -->> BluePrint, Logical Thing, Skeleton
+
+Example like --> {
+    
+    Human Class
+    Animal class
+}
+
+Classes also have property. Example like -->{
+
+    Human class - 2 hands, 2 legs, eating foods, Breathing, behaviour.
+
+    Animal class - dog - 4 legs, eating food, Breathing, loyal.
+}
+
+Syntax
+
+class class-anme{
+
+    property and behaviour
+
+
+    default constructor
+
+    // property and value set
+}
+
+------------------------------------
+
+OOPS - OOP stands for Object-Oriented Programming. It's a programming paradigm that uses objects as its fundamental building blocks.
+
+OOPS 4 PILLARS - The four pillars of OOPS (object-oriented programming) are Inheritance, Polymorphism, Encapsulation and Data Abstraction.
+
+1. Encapsulation.
+
+2. Polymorphism.
+
+3. Inheritance.
+
+4. Data Abstraction.
+
+// JavaScrpit have main 2 - Encapsulation and Inheritance.
+
+1. Encapsulation --> Wrapping up of Data into a single unit - Class.
+
+2. Inheritance -->  Extends
+
+
+//--------TYPES OF INHERITANCE-------------
+
+
+// 1.   Single Inheritance.
+// 2.   Multiple Inheritance.
+// 3.   Multilevel Inheritance.
+// 4.   Hierarchical Inheritance.
+// 5.   Hybrid Inheritance.

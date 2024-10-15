@@ -1,0 +1,3 @@
+area(){
+        return "some area"
+    }

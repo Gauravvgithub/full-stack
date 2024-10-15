@@ -1,5 +1,8 @@
 // SUPER CONSTRUCTOR
 
+// child class data tranfer into the parents.
+//solve the confusion.
+
 class Car{
 
     constructor(brand,model,price,color,features){

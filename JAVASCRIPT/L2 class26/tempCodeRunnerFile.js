@@ -1,3 +1,0 @@
-area(){
-        return "some area"
-    }

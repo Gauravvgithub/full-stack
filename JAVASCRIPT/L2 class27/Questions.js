@@ -44,8 +44,19 @@ const orders = [
 */
 
 // Answer 2 - 
+let orders = [
+  { id: 1, quantity: 2, pricePerItem: 500 },
+  { id: 2, quantity: 1, pricePerItem: 1500 },
+  { id: 3, quantity: 4, pricePerItem: 300 }
+];
 
-// Not Know!!
+let totalCost = orders.reduce((accumulator, order) => {
+  return accumulator + (order.quantity * order.pricePerItem);
+}, 0);
+
+console.log(totalCost);
+
+
 //--------------------
 /*
 

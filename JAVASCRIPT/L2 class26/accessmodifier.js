@@ -25,10 +25,10 @@ console.log(b1);
 
 // Types of Access Modifier :-
 // 1. Public. 
-// 2. Private. # (using by #)
-// 3. Protected. Not In JS
+// 2. Private. # (using by #).
+// 3. Protected. Not Use In JS.
 
-// In javaScrpit - Protected is not available.
+// In javaScrpit - Protected is not used in JavaScrpit.
 
 
 //--------------------------------------------------------------------

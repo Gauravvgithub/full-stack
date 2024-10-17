@@ -1,0 +1,25 @@
+Date - 17 October 2024!!
+
+Doubt Class.
+
+Todays Topic --> 
+
+1. map.
+
+2. reduce.
+
+3.function constrctor.
+
+4.method overriding.
+
+5.deep copy and shallow copy.
+
+6.access modifier.
+
+7.rest and spread operator.
+
+8.super constrctor.
+
+9.inheritance.
+
+10.forEach Loop.

@@ -49,13 +49,13 @@ class class-anme{
 
 ------------------------------------
 
-OOPS - OOP stands for Object-Oriented Programming. It's a programming paradigm that uses objects as its fundamental building blocks.
+OOPs - OOPs stands for Object-Oriented Programming. It's a programming paradigm that uses objects as its fundamental building blocks.
 
-OOPS 4 PILLARS - The four pillars of OOPS (object-oriented programming) are Inheritance, Polymorphism, Encapsulation and Data Abstraction.
+OOPs 4 PILLARS - The four pillars of OOPS (object-oriented programming) are Inheritance, Polymorphism, Encapsulation and Data Abstraction.
 
-1. Encapsulation.
+1. Encapsulation. -->  The process of wrapping properties and functions within a single unit is known as encapsulation.
 
-2. Polymorphism.
+2. Polymorphism. --> Polymorphism is one of the core concepts of object-oriented programming languages where poly means many and morphism means transforming one form into another. Polymorphism means the same function with different signatures is called many times. In real life, for example, a boy at the same time may be a student, a class monitor, etc. So a boy can perform different operations at the same time. This is called polymorphism.
 
 3. Inheritance.
 
@@ -63,7 +63,7 @@ OOPS 4 PILLARS - The four pillars of OOPS (object-oriented programming) are Inhe
 
 // JavaScrpit have main 2 - Encapsulation and Inheritance.
 
-1. Encapsulation --> Wrapping up of Data into a single unit - Class.
+1. Encapsulation --> Wrapping up of Data into a single unit - Class. // 
 
 2. Inheritance -->  Extends
 

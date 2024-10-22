@@ -17,8 +17,9 @@ clock - 3 var -> Hr,Min,Sec
     
 // }, 1000);
 
-let hr=23;
-let min=59;
+
+let hr=12;
+let min=0;
 let sec=0;
 setInterval(()=>{
     sec++;

@@ -9,7 +9,7 @@ console.log("hi world");
 setTimeout(() => {
     console.log("settimeout");
     
-}, 2000);
+}, 100);
 
 for(let j = 0; j<100; j++){
     console.log("j",j+1);
@@ -18,4 +18,10 @@ for(let j = 0; j<100; j++){
 
 setInterval(() => {
     console.log("setinterval");
-},1000);
+    
+}, 100);
+
+setInterval(() => {
+    console.log("thoda late chl raha ha yeh");
+    
+}, 300);

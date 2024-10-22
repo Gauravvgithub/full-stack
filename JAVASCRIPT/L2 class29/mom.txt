@@ -3,3 +3,6 @@ Date - 18th October 2024!!
 Doubt Class.
 
 Some Questions Solving !!
+
+permitive data type are --> number (address are not pass only value are passes).
+Non permitive data type are --> {array,function,object}, (address passesand value also passes).

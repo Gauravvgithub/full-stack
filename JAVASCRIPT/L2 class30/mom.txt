@@ -1,2 +1,60 @@
 Date - 22nd October 2024!!
 
+Last Class - Doubts??
+
+
+Doubts??
+
+Fetch api
+async js intro 
+callbacks 
+callbacks hell
+promises 
+async await 
+
+
+
+
+- Objects - immutable or mutable?
+- functions - functions with implicit return 
+- string - slice method , splice method
+- oops ?
+
+
+
+
+
+
+
+
+
+
+
+Fetch API - js native part - 
+
+fetch - end point - data 
+end point - api - url - request - data 
+
+fetch function - url feed - data 
+
+fetch - 2 step 
+step1 = bolb data ()
+step 2 - system - json format- object jesi cheej - key value pair 
+
+bolb data - json data - system - use 
+
+
+
+
+
+
+async js 
+
+- top to bottom , left to write 
+- js rukni nahi chahye 
+
+
+
+
+- hmesha sabse phle sync js ka code hi chalega 
+- uske baad hi asyn wala code chalega - jiski priorty time hogi 

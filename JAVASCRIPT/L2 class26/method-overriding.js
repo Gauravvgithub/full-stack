@@ -32,4 +32,5 @@ class B extends A{
     }
 }
 let b1= new B ("hansu",18);
+console.log(b1);
 console.log(b1.area());

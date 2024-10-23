@@ -46,7 +46,7 @@ console.log(obj2);
 class Z extends Y{
     constructor(name,age){
         super();
-        this.name="gaurav";
+        this.name="hansu";
         this.age=21;
     }
     area(){

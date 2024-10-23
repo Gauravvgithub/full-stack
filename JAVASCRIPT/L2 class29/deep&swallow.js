@@ -1,5 +1,5 @@
 
-// Deep Copy
+// Deep Copy - only value are passes not a address.
 
 let num1=100;
 let num2=num1;
@@ -12,7 +12,7 @@ console.log("num2 -",num2);
 
 console.log("This is known as a Deep Copy");
 
-// Swallow Copy
+// Swallow Copy - address and value both passes.
 
 let obj1={
     name:"gaurav",

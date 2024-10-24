@@ -1,0 +1,29 @@
+Date - 24th October 2024!!
+
+
+Last Class - async js intro , event loop, call stack , pq 
+
+Todays Class --> 
+callbacks 
+issue with callbacks 
+callback hell 
+ioc
+promises 
+async await 
+
+
+callback - func k andrr func pass krdena - callback
+
+
+arr.forEach((maal)=>{
+    clg(maal)
+})
+
+
+situation 
+
+hello  task1 
+bye  task 2
+
+async js - 
+callback

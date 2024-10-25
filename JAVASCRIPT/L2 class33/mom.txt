@@ -1,0 +1,6 @@
+Date - 25th October 2024!!
+
+Todays topics are --> 
+
+1. Fetch
+2. Axios

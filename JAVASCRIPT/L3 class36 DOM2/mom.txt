@@ -2,4 +2,6 @@ Date - 06 November 2024!!
 
 Revision Class OR Practice Class!!
 
+and making a project of Weather App Using HTML, CSS amd JS
+
 

@@ -1,0 +1,14 @@
+Date - 07th November 2024!!
+
+Last class - DOM Intro, Elements Selection
+
+Todays Topics
+
+Events
+
+1. Mouse Events ---> click, dbclick, scroll and etc.
+2. Keyborad Events
+3. Form
+4.Misc
+
+

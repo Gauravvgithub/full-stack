@@ -1,0 +1,13 @@
+Date - 08th November 2024!!
+
+Last Class --> Mouse Events
+
+Todays Topics -->
+
+1.addEventListner
+2.Custom Tags
+3.Append
+4.AppendChild
+5.Prepend
+6.KeyBoarad Events
+

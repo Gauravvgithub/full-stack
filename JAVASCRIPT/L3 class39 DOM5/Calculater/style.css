@@ -1,0 +1,89 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/world-book-day-background_23-2149323891.jpg?t=st=1731418468~exp=1731422068~hmac=2edcf4cf1f0f9e8f8d014e20a1a3890870647ae41f2295c4f27741dbc369a116&w=996);
+    background-position:center;
+    background-size: contain;
+}
+*{
+    font-family: fira code;
+    font-weight: normal;
+    font-size: 35px;
+    font-style: normal;
+}
+#themeDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#themeBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+#bodydiv{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+#maindiv{
+    margin-top: 80px;
+    width: 18vw;
+    height: 63vh;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+}
+.inputdiv{
+    width: 16vw;
+    height: 15vh;
+    margin: auto;
+    padding: 10px;
+    border: none;
+}
+input{
+    margin-top: 10px;
+    width: 16vw;
+    height: 15vh;
+    padding: 0px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    text-align: right;
+}
+.btndiv{
+    margin-top: 10px;
+    width: 17vw;
+    height: fit-content;
+    margin-left: 7.5px;
+}
+button{
+    margin-top: 12px;
+    margin-left: 3px;
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(110, 110, 110);
+}
+button:hover{
+    background-color: white;
+}
+#whbtn{
+    background-color: white;
+    font-size: 25px;
+}
+#whbtn:hover{
+    background-color: grey;
+}
+#orgbtn{
+    background-color: #FFA500;
+}
+#zerobtn{
+    width: 114px;
+}
+

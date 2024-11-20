@@ -1,7 +1,8 @@
 body{
-    background-image: url(https://img.freepik.com/free-vector/world-book-day-background_23-2149323891.jpg?t=st=1731418468~exp=1731422068~hmac=2edcf4cf1f0f9e8f8d014e20a1a3890870647ae41f2295c4f27741dbc369a116&w=996);
+    background-image: url(https://img.freepik.com/free-vector/flat-geometric-background_23-2148945958.jpg?t=st=1731473517~exp=1731477117~hmac=a2521f6fc9372e450b58ab66457ca976d71b79141ff9abd923d002619bdb9a0f&w=996);
     background-position:center;
-    background-size: contain;
+    background-size: cover;
+
 }
 *{
     font-family: fira code;
@@ -13,6 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 #themeBtn{
     width: 100px;
@@ -21,6 +23,7 @@ body{
     background-color: white;
     color: black;
     font-size: 18px;
+
 }
 #bodydiv{
     width: fit-content;
@@ -34,6 +37,7 @@ body{
     background-color: black;
     border: none;
     border-radius: 25px;
+    
 }
 .inputdiv{
     width: 16vw;

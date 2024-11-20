@@ -1,0 +1,24 @@
+Date - 19th November 2024!!
+
+Todays Topics --> Spread Operator and Rest Operator!!
+
+1. Spread Operator --->
+
+---> Expands or "spreads" elements from an array or object into individual elements.
+
+---> This Operator provides the convenience of easily extracting a list of parameters from an array or object.
+
+
+2. Rest Operator --->
+
+---> Collects multiple elements into a single array or object. It "gathers" the remaining elements.
+
+---------------------------------------------------------------------------------------------------
+
+Key Differnce 
+
+spread - used to unpack elements from an array of object.
+       - used to expand array or objects.
+
+rest - used to pack elements into an array or object.
+     - collects multiple values into an array or object.

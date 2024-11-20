@@ -13,6 +13,16 @@ function sayBye(){
 
 sayHello("Gaurav",sayBye);
 
+function sayHello(name,callfunction){
+    console.log("Hello",name);
+    callfunction();
+}
+function sayBye(){
+    console.log("Bye Gaurav");
+}
+
+sayHello("Gaurav",sayBye);
+
 // *----------------------------------------------------
 
 /*

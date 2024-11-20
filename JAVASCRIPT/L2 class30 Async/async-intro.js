@@ -16,6 +16,6 @@ for(let j = 0; j<100; j++){
     
 }console.log("hey world");
 
-setInterval(() => {
-    console.log("setinterval");
-},1000);
+// setInterval(() => {
+//     console.log("setinterval");
+// },1000);

@@ -15,56 +15,52 @@ step 4 - class enroll
 
 // callback function - 
 
-function connecToDiceServer(name,callfunction){
-    console.log("connecting to dice server....",name);
-
-    setTimeout(()=>{
-        console.log("connected to dice server....");
-        callfunction();
-        
-    },3000);
-    
+// Step 1: Connect to the dice server
+function connectToDiceServer(callback) {
+    console.log("Connecting to Dice server...");
+    setTimeout(() => {
+        console.log("Connected to Dice server.");
+        callback();
+    }, 1000); // Simulating server connection delay
 }
 
-
-function courseExplore(){
-    console.log("exploring course");
-
-    setTimeout(()=>{
-        console.log("course explored");
-        
-    },5000);
-    
+// Step 2: Explore courses
+function exploreCourses(callback) {
+    console.log("Exploring available courses...");
+    setTimeout(() => {
+        console.log("Courses explored.");
+        callback();
+    }, 1000); // Simulating course exploration delay
 }
 
-function classSelection(name,callfunction){
-    console.log("class selection in process....",name);
-
-    setTimeout(()=>{
-        console.log("class selected successfully");
-        callfunction();
-        
-    },7000);
-    
+// Step 3: Select a course
+function selectCourse(callback) {
+    console.log("Selecting a course...");
+    setTimeout(() => {
+        console.log("Course selected.");
+        callback();
+    }, 1000); // Simulating course selection delay
 }
 
-
-function classEnroll(){
-    console.log("class enrolling");
-
-    setTimeout(()=>{
-        console.log("class enrolled successfully");
-        
-    },11000);
-    
+// Step 4: Enroll in class
+function enrollInClass(callback) {
+    console.log("Enrolling in the class...");
+    setTimeout(() => {
+        console.log("Successfully enrolled in class.");
+        callback();
+    }, 1000); // Simulating class enrollment delay
 }
 
-connecToDiceServer("",courseExplore);
-classSelection("",classEnroll);
+// Final callback - Perform something after all steps are completed
+function finalCallback() {
+    console.log("All steps completed!");
+}
 
-
-
-
-
-
-
+// Starting the process with callbacks
+connectToDiceServer(function() {
+    exploreCourses(function() {
+        selectCourse(function() {
+            enrollInClass(finalCallback);
+        });
+    });
+});

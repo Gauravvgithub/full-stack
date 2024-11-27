@@ -14,7 +14,7 @@ case 1 - parent to child
 
 case 2 - child to parent
 
-case 3 - child to children
+case 3 - child to children (sibling to sibling communication){through a Common Parent}
 
 
 --------------------------------

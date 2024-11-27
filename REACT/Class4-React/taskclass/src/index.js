@@ -3,17 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Parent from './functional-components/case-i/Parent';
-import Parent2 from './functional-components/case-ii/Parent2';
-import ParentComponent from './functional-components/case-iii/ParentComponent';
+import Parent from './class-components/case-i/Parent01';
+import Parent02 from './class-components/case-ii/Parent02';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <Parent></Parent> */}
-    {/* <Parent2></Parent2> */}
-    <ParentComponent></ParentComponent>
+    {/* <App />
+     */}
+     {/* <Parent></Parent> */}
+     <Parent02></Parent02>
   </React.StrictMode>
 );
 

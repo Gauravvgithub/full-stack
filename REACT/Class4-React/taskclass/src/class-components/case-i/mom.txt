@@ -1,3 +1,0 @@
-Data Communication Between Parent To Child By Class Components.
-
-Done!!

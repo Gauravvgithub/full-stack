@@ -1,3 +1,0 @@
-This is a Case 2.
-
-Case 2 is a transfer Data Child to Parent.

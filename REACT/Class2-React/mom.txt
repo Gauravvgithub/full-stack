@@ -1,9 +1,0 @@
-Date - 22nd November 2024!!
-
-Todays Topic --> Components
-
-1. Class Components.
-
-2. Functional Components.
-
-

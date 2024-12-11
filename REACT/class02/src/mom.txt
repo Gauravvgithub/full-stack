@@ -1,0 +1,19 @@
+Date - 10th December 2024!!
+
+Class Components  Data Communication ->{
+
+    All Three Case->{
+        Parent to Child
+
+        Child to Parent
+
+        Child to Children
+
+    }
+}
+
+
+Bind Keyword
+
+
+useState and Hooks

@@ -1,0 +1,21 @@
+Date - 05th Decemeber 2024!!
+
+Last Class -> React Setup, Intro, History, Syllabus, Functional Components.
+---------------------------------------------------------------------------
+
+Today's Topic 
+
+-> Functional Components -> Syntex
+-> Class Components -> Syntex
+
+Important Topic
+->> Components Communications in Both Class Components and Functional Components.
+
+-> Functional Components -> 3 Cases
+
+1. Parent To Child.
+
+2. Child To Parent.
+
+3.Child To Children.
+

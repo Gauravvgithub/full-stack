@@ -1,23 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Parent from './Components/ClassComponents/ParentToChild/Parent';
-import Parent1 from './Components/ClassComponents/ChildToParent/Parent1';
-import Child2 from './Components/ClassComponents/ChildToChildren/Child2';
-import App from './UseState&Hooks/Functional-Components/App';
-import Parent2 from './Components/ClassComponents/ChildToChildren/Parent2';
+import Parent2 from './RevisionClassComponents-3Cases/ChildToChildren/Parent2';
+// import CounterApp from './useState-Counter/CounterApp';
+// import Father1 from './RevisionClassComponents-3Cases/ChildToParent/Father1'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
+    {/* <CounterApp/> */}
     {/* <Parent/> */}
-    {/* <Parent1/> */}
-    {/* <Child2/> */}
-    {/* <App/> */}
-    <Parent2/>
+    {/* <Father1/> */}
+    <Parent2></Parent2>
   </React.StrictMode>
 );
 

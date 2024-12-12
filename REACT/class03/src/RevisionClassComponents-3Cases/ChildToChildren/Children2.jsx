@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class Child2 extends Component {
+export default class Children2 extends Component {
   render() {
     return (
-      <div>Child2</div>
+      <div>Children2</div>
     )
   }
 }

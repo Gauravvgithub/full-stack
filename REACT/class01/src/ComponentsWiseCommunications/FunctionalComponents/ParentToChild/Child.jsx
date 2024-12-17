@@ -1,6 +1,6 @@
 
-export default function(props){
-    console.log("coming from parent to child",props);
+export default function Child(props){
+    // console.log("coming from parent to child",props);
     
     return(
         <div>

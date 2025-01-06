@@ -4,6 +4,6 @@ TOPIC - useEffect and Axios
 
 AND Controlled vs Uncontrolled Components
 
-Controlled means - inbuilt functions, methods in react 
+Controlled means - inbuilt functions, methods in react
 
-Uncontrolled means - html DOM 
+Uncontrolled means - html DOM doesnt have its own methodes or inbuilt functions.

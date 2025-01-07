@@ -1,0 +1,95 @@
+.div1{
+    width: 40%;
+}
+.div2 {
+  width: 60%; /* Make both divs take half the width of the container */
+  
+}
+
+.container {
+  display: flex; /* Use flexbox to align items side by side */
+  justify-content: center; /* Center align the items horizontally */
+  align-items: center; /* Center align the items vertically */
+  margin: 60px; /*Center the container on the page */
+  /* gap: 20px; Add space between the divs */
+}
+
+.productImage {
+  width: 35vw; /* Ensure the image fits its container */
+  height: 80vh;
+  border-radius: 50px 0px 0px 50px; /* Optional: Add rounded corners to the image */
+  cursor: pointer;
+}
+
+
+
+
+.div2 {
+    width: 100vw;
+    height: 72vh;
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 10vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to make it visually appealing */
+    border-radius: 0px 50px 50px 0px; /* Optional: Add rounded corners */
+    /* background-color: #fff; Optional: Add a background color */
+    /* background-color: red; */
+}
+
+.inptext{
+    margin-left: 40px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.inppass{
+    margin-left: 15px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.forgetbtn, .registerbtn{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 100px;
+    border-style: hidden;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.loginButton{
+    margin-left: 18%;
+    margin-top: 10%;
+    width: 10vw;
+    height: 10vh;
+    border: transparent;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.notification {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+  }
+  
+
+
+
+

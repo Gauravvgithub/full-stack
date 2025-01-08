@@ -1,9 +1,9 @@
-.div1{
-    width: 40%;
-}
-.div2 {
-  width: 60%; /* Make both divs take half the width of the container */
-  
+body, .loginButton, .registerbtn, .forgetbtn{
+  font-family: 'fira code';
+  ::selection {
+    color: #fff;
+    background: rgb(0, 157, 255);
+  }
 }
 
 .container {
@@ -19,6 +19,7 @@
   height: 80vh;
   border-radius: 50px 0px 0px 50px; /* Optional: Add rounded corners to the image */
   cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0.2, 0.2, 0.2, 0.2);
 }
 
 
@@ -28,9 +29,9 @@
     width: 100vw;
     height: 72vh;
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 2.1rem;
     padding-left: 10vw;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to make it visually appealing */
+    box-shadow: 0 4px 6px rgba(0.2, 0.2, 0.2, 0.2); /*Optional: Add shadow to make it visually appealing */
     border-radius: 0px 50px 50px 0px; /* Optional: Add rounded corners */
     /* background-color: #fff; Optional: Add a background color */
     /* background-color: red; */
@@ -57,39 +58,41 @@
     border-style: hidden;
     text-decoration: underline;
     cursor: pointer;
+    background-color: rgb(0, 157, 255);
+
 }
 
 .loginButton{
-    margin-left: 18%;
-    margin-top: 10%;
+    margin-left: 80.6%;
+    margin-top: 3.8%;
     width: 10vw;
-    height: 10vh;
+    height: 20vh;
     border: transparent;
-    border-radius: 10%;
+    border-radius: 25% 0 25%;
+    background-color: rgb(0, 157, 255);
+    font-weight: bold;
+    font-size: 25px;
     cursor: pointer;
 }
 
-.notification {
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 14px;
+@media only screen and (min-width: 320px) {
+  .container {
+    display: flex; /* Use flexbox to align items side by side */
+    justify-content: center; /* Center align the items horizontally */
+    align-items: center; /* Center align the items vertically */
+    text-wrap:inherit;    
   }
-  
-  .success {
-    color: #155724;
-    background-color: #d4edda;
-    border: 1px solid #c3e6cb;
+
+
+
+}
+
+@media only screen and (max-width: 100%) {
+  .container {
+    display: flex; /* Use flexbox to align items side by side */
+    justify-content: center; /* Center align the items horizontally */
+    align-items: center; /* Center align the items vertically */
+    margin: 100px; /*Center the container on the page */
+ 
   }
-  
-  .error {
-    color: #721c24;
-    background-color: #f8d7da;
-    border: 1px solid #f5c6cb;
-  }
-  
-
-
-
-
+}

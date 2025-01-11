@@ -1,11 +1,11 @@
-/* body{
+body{
   background-image: url(/src/assets/bgImage.jpg);
   background-size: cover;
   background-position: 100%;
-  background-repeat: no-repeat;
-} */
+  background-repeat: repeat;
+}
 
-body, .loginButton, .registerbtn, .forgetbtn{
+body{
   font-family: sans-serif;
   ::selection {
     color: black;
@@ -13,82 +13,183 @@ body, .loginButton, .registerbtn, .forgetbtn{
   }
 }
 
-h1{
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
+#container {
   display: flex; 
   justify-content: center;
   align-items: center;
   padding: 0%;
-  
 }
 
-/* .productImage {
-  width: 35vw; 
-  height: 80vh;
-  border-radius: 50px 0px 0px 50px; 
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0.2, 0.2, 0.2, 0.2);
-} */
 
-.div2 {
-  width: 100vw;
-  margin-top: 50px;
-  margin-left: 70%;
-  margin-right: 50px;
-  padding: 25px 0px 50px  15px;
+.div1{
+  margin-top: 5%;
+  padding: 5% ;
+  padding-top: 25px;
+  padding-bottom: 25px;
   box-shadow: 6px  8px 12px 20px rgba(0.2, 0.2, 0.2, 0.2);
   border-radius: 50px ; 
   box-sizing: border-box;
+  background-color: white;
 }
 
+
 .inptext{
+  margin-left: 7%;
+  margin-top: 5px;
+  height: 25px;
   background-color: #fff;
-  margin-left: 23%;
   border-radius: 50px;
   text-align: center;
   cursor: pointer;
   outline: none;
-  border-color: transparent;
+  border-color: black;
+  
+}
+.inptext:focus{
+  border: 3px solid #0dcaf0;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
 }
 
 .inppass{
+  margin-left: 7%;
+  margin-top: 5px;
+  height: 25px;
   background-color: #fff;
   outline: none;
-  border-color: transparent;
-  margin-left: 15%;
+  border-color: black;
   border-radius: 50px;
   text-align: center;
   cursor: pointer;
 }
+.inppass:focus{
+  border: 3px solid #0dcaf0;
+  transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
 
-.forgetbtn, .registerbtn{
-  width: 25vw;
-  height: 5vh;
+
+h2, h4{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;  
+}
+
+label{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.loginP{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.forgetbtn{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-left: 20%;
   border-radius: 100px;
   border-style: hidden;
   text-decoration: underline;
+  transition: 0.9s ease-in-out;
   cursor: pointer;
+}
+.forgetbtn:hover{
   background-color: rgb(0, 157, 255);
+  color: #fff;
+}
+
+.registerbtn{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-left: 27%;
+  border-radius: 100px;
+  border-style: hidden;
+  text-decoration: underline;
+  transition: 0.9s ease-in-out;
+  cursor: pointer;
+}
+
+.registerbtn:hover{
+  background-color: rgb(0, 157, 255) ;
+  color: #fff;
+}
+
+.guestbtn{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-left: 18%;
+  border-radius: 100px;
+  border-style: hidden;
+  transition: 0.9s ease-in-out;
+  cursor: pointer;
+  color: black;
+
+}
+.guestbtn:hover{
+  background-color: rgb(0, 157, 255) ;
+  color: #fff;
+}
+
+.guestLink{
+  text-decoration: none;
+  color: black;
+  transition: 0.9s ease-in-out;
+}
+.guestLink:hover{
+  text-decoration: none;
+  color: white;
 }
 
 .loginButton{
-  margin: 30px 0 -10px 150px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
   border: transparent;
   border-radius: 50px;
-  background-color: rgb(0, 157, 255);
   font-weight: 500px;
   font-size: 25px;
-  transition: width 2s, height 2s, transform 1s;
+  transition: 0.9s ease-in-out;
   cursor: pointer;
   box-sizing: border-box;
 }
 .loginButton:hover{
-  transform:rotate3d(360deg);
+  background-color: rgb(0, 157, 255);
+  color: #fff;
 
 }
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.icon ion-icon{
+  color: rgb(0, 157, 255) ;
+  font-size: 25px;
+  padding-left: 8px;
+  padding-top: 4px;
+  transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+  color: black;
+}
+
 

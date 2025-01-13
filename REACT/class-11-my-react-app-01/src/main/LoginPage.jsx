@@ -33,12 +33,12 @@ const LoginPage = () => {
           <p className='loginP' >Don't have an account?</p>
           <button className="registerbtn">Register Now</button>
           <br />
-          <button className="guestbtn"><Link className='guestLink' to="/guest">Continue as a Guest</Link></button>
+          <button className="loginButton"><Link className='loginLink' to="/guest">Login</Link></button>
           <br />
-          <button className="loginButton">Login</button>
+          {/* <button className="loginButton">Login</button> */}
           </div>
           <div className="icon">
-            <a href="#"><ion-icon className='facebookIcon' name="logo-facebook"/></a>
+            <a href="#"><ion-icon name="logo-facebook"/></a>
             <a href="#"><ion-icon name="logo-Instagram"/></a>
             <a href="#"><ion-icon name="logo-github"/></a>
             <a href="#"><ion-icon name="logo-Google"/></a>

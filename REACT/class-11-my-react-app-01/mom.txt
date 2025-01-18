@@ -7,3 +7,4 @@ Topic - Make a e-commerce website
 3 . Single item page (selected item)
 4 . .........etc
 
+axios also used for api calling

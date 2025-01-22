@@ -24,4 +24,4 @@ const DescriptionBox = () => {
   )
 }
 
-export default DescriptionBox
+export default DescriptionBox;

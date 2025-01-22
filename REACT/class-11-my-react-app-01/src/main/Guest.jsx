@@ -4,7 +4,6 @@ import '/src/assets/frontSilder1.png';
 import '/src/assets/frontSilder2.png';
 import '/src/assets/frontSilder3.png';
 import '/src/assets/mainLogo_11zon.png'
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 export default function Guest() {
   return (
@@ -93,7 +92,7 @@ export default function Guest() {
 <br />
 <br />
 <h2 style={{fontWeight: 'bolder' }}>Recent launch</h2>
-<div className='cardDiv'>
+<div className='cardDiv row'>
 <div className="card" style={{width: "18rem"}}>
   <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0507f937-dfee-410b-a951-b1ae18441244/WMNS+JORDAN+HEIR+SERIES+PF.png" className="card-img-top" alt="..."/>
   <div className="card-body">

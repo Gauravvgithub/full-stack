@@ -1,0 +1,13 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+#div2{
+    padding: 2%;
+    background: rgb(255, 255, 255);
+    border-radius: 2%;
+    border: 1px solid rgb(153, 153, 153);
+    box-shadow: -5px -5px 15px 5px rgba(0, 90, 255, 0.8), 5px 5px 15px 7px rgba(0, 213, 83, 0.8);
+}

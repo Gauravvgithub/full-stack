@@ -1,0 +1,21 @@
+.cardDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    margin: 0px;
+}
+.divh2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}

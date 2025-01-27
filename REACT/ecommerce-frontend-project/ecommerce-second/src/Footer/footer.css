@@ -1,0 +1,10 @@
+#subBtn{
+    outline: 0;
+    border: 0;
+    background: black ;
+    font-weight: 400;
+    border-radius: 10px;
+}
+#subBtn a{
+    color: white;
+}

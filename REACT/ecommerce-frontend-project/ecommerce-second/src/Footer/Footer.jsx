@@ -3,9 +3,9 @@ import './footer.css'
 const Footer = () => {
   return (
     <>
-      <footer className="py-4 offset-1 container card mb-5 text-wrap" style={{width: "6rem"}}>
-        <div className="row text-wrap" style={{width: "6rem"}}>
-          <div className="col-2 text-wrap" style={{width: "6rem"}}>
+      <footer className="py-4 offset-1">
+        <div className="row " >
+          <div className="col-2" >
             <h5>Resources</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
@@ -95,9 +95,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-3 offset-2 text-wrap" style={{width: "6rem"}}>
+          <div className="col-3 offset-2">
             <form>
-              <h5 className="text-wrap" style={{width: "6rem"}}>Subscribe to our newsletter</h5>
+              <h5 >Subscribe to our newsletter</h5>
               <p>Monthly digest of whats new and exciting from us.</p>
               <div className="d-flex w-100 gap-2">
                 <label for="newsletter1" className="visually-hidden">
@@ -109,8 +109,8 @@ const Footer = () => {
                   className="form-control"
                   placeholder="Email address"
                 />
-                <button className="btn btn-secondary" type="button">
-                  <a href="#" className="nav-link p-0 text-muted">
+                <button id="subBtn" type="button">
+                  <a href="#" className="nav-link p-0 ">
                     Subscribe
                   </a>
                 </button>

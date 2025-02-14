@@ -8,6 +8,6 @@
 
 5 . - 📫 How to reach me on my email I'D - gauravraj7011@gmail.com
 
-6 . - 😄 Pronouns: Gaurav.
+6 . - 😄 Pronouns: Him.
 
 7 . - ⚡ Fun fact: Code With Enjoy.
